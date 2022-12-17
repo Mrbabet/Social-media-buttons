@@ -31,6 +31,42 @@ ul {
   transform: rotate(-30deg) skew(25deg);
   box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
 }
+.fb:hover {
+  background-color: #3b5998;
+  color: white;
+}
+.fb:hover.fb:after {
+  background-color: #365492;
+}
+.fb:hover.fb::before {
+  background-color: #4a69ad;
+}
+.fb:hover i {
+  color: white;
+}
+
+.ig:hover {
+  background-color: #3b5998;
+}
+.ig:hover.ig:after {
+  background-color: #365492;
+}
+.ig:hover.ig::before {
+  background-color: #4a69ad;
+}
+.fb:hover {
+  background-color: #3b5998;
+}
+.fb:hover.fb:after {
+  background-color: #365492;
+}
+.fb:hover.fb::before {
+  background-color: #4a69ad;
+}
+.icon i {
+  font-size: 28px;
+  margin-right: 1rem;
+}
 .icon::before {
   content: "";
   position: absolute;
